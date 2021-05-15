@@ -9,6 +9,11 @@ services:
       - '5432:5432'
     env_file:
       - '.env'
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --health-interval 10s --health-timeout 5s --health-retries 5"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   redis:
     image: redis
