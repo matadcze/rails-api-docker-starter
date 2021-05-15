@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.0.3.rc1'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby '3.0.0'
+
+gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
