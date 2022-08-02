@@ -1,6 +1,6 @@
 # Rails API Docker Starter
 
-## Minimal starter for Rails 6 API application with Docker, Postgresql and Redis databases
+## Minimal starter for Rails 7 API application with Docker, Postgresql and Redis databases
 
 * **[Rails](https://rubyonrails.org/)**
 * **[Docker](https://www.docker.com/)**
